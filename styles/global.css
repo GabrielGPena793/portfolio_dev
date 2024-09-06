@@ -30,3 +30,24 @@
   --font-maven-pro-md: 400 16px/140% var(--font-maven-pro);
   --font-maven-pro-sm: 400 14px/140% var(--font-maven-pro);
 }
+
+h3 {
+  font: var(--font-inconsolata-subtitle);
+}
+
+h1 {
+  font: var(--font-asap-md);
+}
+
+p {
+  font: var(--font-maven-pro-sm);
+}
+
+span {
+  font: var(--font-maven-pro-md);
+}
+
+.container {
+  max-width: 1040px;
+  margin-inline: auto;
+}
