@@ -1,0 +1,54 @@
+#my-jobs {
+  background-color: var(--gray-200);
+  padding-block: 72px 144px;
+
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  h3 {
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    color: var(--gray-600);
+    margin-bottom: 56px;
+  }
+
+  #container_cads {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    transition: all 0.4s ease-in-out;
+
+    .card {
+      padding: 12px 12px 17px;
+      background: var(--gray-300);
+      border-radius: 12px;
+      border: 2px solid transparent;
+
+      img {
+        width: 306px;
+        border-radius: 8px;
+
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        color: var(--gray-600);
+        margin-bottom: 8px;
+      }
+
+      p {
+        color: var(--gray-500);
+      }
+
+      &:hover {
+        border-color: var(--gray-400);
+      }
+    }
+  }
+}

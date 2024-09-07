@@ -7,6 +7,7 @@
 
   background-image: url(../assets/Intro.jpg);
   background-size: cover;
+  background-position: center;
 
   #info {
     max-width: 680px;
