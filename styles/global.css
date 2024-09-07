@@ -60,3 +60,7 @@ span {
 a {
   text-decoration: none;
 }
+
+section {
+  padding-inline: 24px;
+}

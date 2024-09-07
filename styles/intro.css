@@ -71,7 +71,9 @@
     ul {
       list-style: none;
       display: flex;
+      justify-content: center;
       aling-items: center;
+      flex-flow: wrap;
       gap: 16px;
       margin-bottom: 94px;
 
@@ -104,11 +106,9 @@
 
 @keyframes up-down {
   from {
-    /* empurra o sol para além da janela de visualização */
     transform: translateY(10px);
   }
   to {
-    /* retorna o sol à sua posição padrão */
     transform: translateY(0);
   }
 }

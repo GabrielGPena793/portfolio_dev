@@ -19,7 +19,7 @@
 
   #container_cads {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     gap: 24px;
 
     transition: all 0.4s ease-in-out;
@@ -31,7 +31,7 @@
       border: 2px solid transparent;
 
       img {
-        width: 306px;
+        width: 100%;
         border-radius: 8px;
 
         margin-bottom: 20px;
