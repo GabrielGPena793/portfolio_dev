@@ -51,3 +51,7 @@ span {
   max-width: 1040px;
   margin-inline: auto;
 }
+
+a {
+  text-decoration: none;
+}
